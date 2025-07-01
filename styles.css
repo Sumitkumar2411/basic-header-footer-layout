@@ -1,0 +1,67 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* body ka styling */
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+/* Header ka styling */
+header {
+  background-color: #e00000;
+  padding: 15px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styling kiya gaya hai */
+footer {
+  background-color: #171717;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  margin-top: auto;  
+  flex-shrink: 0;   
+}
+
+/* Floating contact box styling hua hai*/
+.contact-floating-box {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: #ffcc00;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* contact floating boxx ka styles */
+.contact-floating-box a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
